@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(251, 170, 220);
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    padding: 10px;
+    color: rgb(6, 6, 128);
+    font-family: "Playwrite CU", cursive;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    margin: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: aquamarine;
+}
+body{
+    background-color: rgb(254, 215, 254);
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#certificaciones img { 
+    border-radius: 5%;
+
+}
+.row {
+    margin: 5%;
+}
+header img{
+    display: flex;
+    justify-content: center;
+}
